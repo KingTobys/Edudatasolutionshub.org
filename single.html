@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab" onclick="showContent('home')">Home</button>
+        <button class="tab" onclick="showContent('projects')">Projects</button>
+        <button class="tab" onclick="showContent('publications')">Publications</button>
+        <button class="tab" onclick="showContent('news')">News and Articles</button>
+    </div>
+
+    <div id="home" class="tab-content">
+        <h1>Welcome to My Website</h1>
+        <p>This is the home page.</p>
+    </div>
+
+    <div id="projects" class="tab-content">
+        <h1>Projects</h1>
+        <div class="project">
+            <h2>Project 1</h2>
+            <div class="forum">
+                <h3>Discussion Forum</h3>
+                <textarea placeholder="Add your comments here..."></textarea>
+                <button>Post Comment</button>
+            </div>
+        </div>
+        <!-- Add more projects as needed -->
+    </div>
+
+    <div id="publications" class="tab-content">
+        <h1>Publications</h1>
+        <p>List of publications goes here.</p>
+    </div>
+
+    <div id="news" class="tab-content">
+        <h1>News and Articles</h1>
+        <p>Latest news and articles go here.</p>
+    </div>
+
+    <script src="scripts.js"></script> <!-- Link to JavaScript -->
+</body>
+</html>

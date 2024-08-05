@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tab-content {
+    padding: 20px;
+}
+
+#project-form-section, #upload-form-section, #news-form-section, #upload-news-form-section, #member-form-section {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#projects-list .project, #uploaded-publications .publication, #news-list .news-item, #members-list .member {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comments-section .comment {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.like-dislike {
+    margin-top: 10px;
+}
+
+.like-button, .dislike-button {
+    margin-right: 10px;
+}
+
+.follow-button {
+    margin-top: 10px;
+}
